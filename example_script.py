@@ -2,9 +2,9 @@ import pandas as pd
 
 # Membuat data dummy
 data = {
-    'Nama': ['Ali', 'Budi', 'Citra', 'Dewi'],
-    'Umur': [22, 25, 24, 23],
-    'Kota': ['Jakarta', 'Surabaya', 'Bandung', 'Yogyakarta']
+    'Nama': ['Adrian', 'Erickson'],
+    'Umur': [25, 25],
+    'Kota': ['Depok', 'Depok']
 }
 
 # Membuat DataFrame
@@ -18,4 +18,3 @@ print(df)
 csv_data = df.to_csv(index=False)
 print("\nData CSV:")
 print(csv_data)
-
